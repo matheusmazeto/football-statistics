@@ -8,9 +8,9 @@
     "lint": "eslint ."
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^0.25.2",
     "@iconify-json/carbon": "^1.1.6",
     "@iconify-json/twemoji": "^1.1.5",
+    "@matheusmazeto/eslint-config": "^0.0.1",
     "@nuxtjs/color-mode": "^3.1.4",
     "@pinia/nuxt": "^0.1.9",
     "@unocss/nuxt": "^0.43.2",
