@@ -1,14 +1,10 @@
 <template>
-  <div>
-    <Logos mb-6 />
-    <Suspense>
-      <PageView />
-      <template #fallback>
-        <div op50 italic>
-          <span animate-pulse>Loading...</span>
-        </div>
-      </template>
-    </Suspense>
-    <InputEntry />
+  <div grid="~ lg:cols-2 gap2" px8 h-full of-hidden>
+    <div h-full grid="~ rows-[min-content_min-content_1fr]" of-hidden>
+      <Search />
+    </div>
+    <div>
+      results
+    </div>
   </div>
 </template>

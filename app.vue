@@ -10,20 +10,23 @@ useHead({
 </script>
 
 <template>
-  <NuxtLayout cl>
+  <main class="pt2 text-center font-sans" w-full h-screen of-hidden relative>
     <NuxtPage />
-  </NuxtLayout>
+  </main>
 </template>
 
 <style>
-html, body , #__nuxt{
+html, body , #__nuxt {
   height: 100vh;
-  margin: 0;
-  padding: 0;
 }
-
 html.dark {
-  background: #222;
+  background: #121212;
   color: white;
+}
+html.dark .shiki-light {
+  display: none;
+}
+html:not(.dark) .shiki-dark {
+  display: none;
 }
 </style>
